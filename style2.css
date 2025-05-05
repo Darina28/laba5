@@ -1,0 +1,43 @@
+.block {
+    width: 500px;
+    min-height: 50px;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 0px 0px 0px 5px;
+    position: relative;
+    clear: both;
+
+}
+.one {
+    margin-left: 70px;
+    background-color: aquamarine;
+    float:left;
+    border-radius: 15px 15px 15px 0px;
+    
+}
+.one .icon {
+    position:absolute;
+    top: 15px;
+    left: -65px;
+   
+}
+.one .img{
+    width: 55px;
+    height: 55px;
+    background-image: url(https://i.pinimg.com/736x/89/5a/cf/895acfb8aa2e332606232792588e183d.jpg);
+    background-size: cover;
+    background-color: blue;
+    border-radius: 30px;
+}
+.one .name {
+    position:absolute;
+    left: 5px
+
+
+}
+.two {
+    margin-right: 70px;
+    background-color: bisque;
+    float:right;
+}
+
