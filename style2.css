@@ -1,16 +1,19 @@
+body {
+    background-color: rgb(200, 199, 174);
+}
 .block {
     width: 500px;
     min-height: 70px;
     margin: 10px;
     margin-top: 20px;
-    padding: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 7px;
     position: relative;
     clear: both;
 
 }
 .one {
     margin-left: 70px;
-    background-color: aquamarine;
+    background-color: rgb(111, 153, 82);
     float:left;
     border-radius: 15px 15px 15px 0px;
     
@@ -28,6 +31,7 @@
     background-size: cover;
     background-color: blue;
     border-radius: 30px;
+    border: medium inset rgb(76, 145, 33);
 }
 .one .name {
     position:absolute;
@@ -43,12 +47,36 @@
     
 }
 .two {
-    margin-right: 70px;
-    background-color: bisque;
+    margin-right: 80px;
+    background-color: rgb(100, 152, 189);
     float:right;
     border-radius: 15px 15px 0px 15px;
 }
 .two .icon {
     position: absolute;
+    right: -60px;
+    bottom: -1px;
+}
+.two .img{
+    width: 50px;
+    height: 50px;
+    background-image: url(https://i.pinimg.com/736x/89/5a/cf/895acfb8aa2e332606232792588e183d.jpg);
+    background-size: cover;
+    background-color: blue;
+    border-radius: 30px;
+    border: medium inset rgb(50, 81, 167);
+}
+.two .name {
+    position:relative;
+    left: 10px
+}
+.two .time {
+    position:absolute;
+    bottom: -1px;
+    left: 1px;
+    padding: 7px;
+    color: rgb(89, 88, 88);
+    font-size: 10px;
+    
 }
 
