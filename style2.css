@@ -1,5 +1,6 @@
 body {
     background-color: rgb(200, 199, 174);
+    background-image: url();
 }
 .block {
     width: 500px;
@@ -27,7 +28,7 @@ body {
 .one .img{
     width: 50px;
     height: 50px;
-    background-image: url(https://i.pinimg.com/736x/89/5a/cf/895acfb8aa2e332606232792588e183d.jpg);
+    background-image: url(https://i.pinimg.com/736x/6c/55/83/6c558305f2a370fa282839e12f319a39.jpg);
     background-size: cover;
     background-color: blue;
     border-radius: 30px;
@@ -60,7 +61,7 @@ body {
 .two .img{
     width: 50px;
     height: 50px;
-    background-image: url(https://i.pinimg.com/736x/89/5a/cf/895acfb8aa2e332606232792588e183d.jpg);
+    background-image: url(https://i.pinimg.com/736x/b3/ad/8a/b3ad8a5bce5200530573fa172fba0382.jpg);
     background-size: cover;
     background-color: blue;
     border-radius: 30px;
@@ -68,7 +69,7 @@ body {
 }
 .two .name {
     position:relative;
-    left: 10px
+    left: 13px
 }
 .two .time {
     position:absolute;
