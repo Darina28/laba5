@@ -1,0 +1,75 @@
+ul {
+    padding: 0%;
+}
+.osnova {
+    list-style-type: none;
+}
+.osnova li {
+    float: left;
+    padding: 20px 40px;
+    background-color: blueviolet;
+    transition: 1s;
+    position: relative;
+}
+.osnova li:hover {
+    background-color: aqua;   
+}
+
+
+
+
+
+
+
+.twoosnova {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    top:100%;
+    left: 0%;
+    
+  
+
+}
+.twoosnova li {
+    float: none;
+    
+
+}
+li:hover .twoosnova {
+    display: block;
+}
+
+
+
+
+
+
+
+.threeosnova {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease,  0.5s ease;
+    top:0%;
+    left: 100%;
+    
+}
+
+.twoosnova:hover .threeosnova {
+    opacity: 1;
+    visibility: visible;
+    
+}
+.threeosnova li {
+    float: none;
+
+}
+.twoosnova li:hover .threeosnova {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
