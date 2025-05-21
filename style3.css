@@ -1,3 +1,7 @@
+body {
+    font: 1em sans-serif;
+
+}
 ul {
     padding: 0%;
 }
@@ -22,22 +26,31 @@ ul {
 
 
 .twoosnova {
-    display: none;
+    visibility: hidden;
     list-style-type: none;
     position: absolute;
     top:100%;
     left: 0%;
+    width: 100%;
     
+
+  
+   
   
 
 }
 .twoosnova li {
     float: none;
+    padding-left: 25px; 
+
+    
     
 
 }
 li:hover .twoosnova {
     display: block;
+    visibility: visible;
+    
 }
 
 
@@ -56,20 +69,21 @@ li:hover .twoosnova {
     top:0%;
     left: 100%;
     
-}
 
-.twoosnova:hover .threeosnova {
-    opacity: 1;
-    visibility: visible;
+   
     
 }
+
+
 .threeosnova li {
     float: none;
+    
 
 }
 .twoosnova li:hover .threeosnova {
     display: block;
     opacity: 1;
     visibility: visible;
+    
 }
 
